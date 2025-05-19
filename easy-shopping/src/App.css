@@ -1,0 +1,41 @@
+.fulldiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: aquamarine; 
+    flex-direction: column;
+}
+
+.timediv{
+    font-size: 50px;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.lapbutton{
+    margin-left: 10px;
+}
+
+.laptimediv{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x:scroll;
+    margin-top: 20px;
+    background-color: azure;
+}
+
+.laptime{
+    font-size: 15px;
+    margin: 10px 0 0 30px;
+}
+
+
